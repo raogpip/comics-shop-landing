@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Comics shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/89361bc973.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <img class="square" src="./assets/Rectangle 2.svg" />
+    <img class="circle" src="./assets/Circle.svg" />
+
+    <div class="wrapper">
+      <header>
+        <div class="header__title" id="logo">
+          comic book <span style="color: #823fef">store</span>
+        </div>
+        <ul class="header__menu">
+          <li class="header__menu-item">
+            <!--УБРАТЬ ЛИНК1-->
+            <a href="#" class="header__menu-link1">Главная</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="#" class="header__menu-link">Комиксы</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="#" class="header__menu-link">Артбуки</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="#" class="header__menu-link">Мерч</a>
+          </li>
+          <li class="header__menu-item">
+            <a href="#" class="header__menu-link">
+              <i class="fa-solid fa-bag-shopping"></i>
+            </a>
+          </li>
+        </ul>
+      </header>
+      <div class="stage--1">
+        <div class="left-side">
+          <div class="stage--1__title">
+            <p class="stage--1__title-text">Истории на любой цвет и вкус</p>
+          </div>
+          <div class="stage--1__btn-bottom">
+            <a href="#new"><i class="fa-solid fa-arrow-down-long"></i> </a>
+          </div>
+        </div>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="/assets/slider1-image1svg.svg" alt="Heroes1" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/assets/slider1-image1svg.svg" alt="Heroes1" />
+            </div>
+            <div class="swiper-slide">
+              <img src="/assets/slider1-image1svg.svg" alt="Heroes1" />
+            </div>
+          </div>
+          <div class="my-swiper-pagination"></div>
+        </div>
+      </div>
+      <div class="stage--1__footer">
+        <ul class="stage--1__footer__menu">
+          <li class="stage--1__footer__menu-item">
+            <a href="#" class="stage--1__footer__menu-item__text">UA</a>
+          </li>
+          <li class="stage--1__footer__menu-item">
+            <a href="#" class="stage--1__footer__menu-item__text">EN</a>
+          </li>
+          <li class="stage--1__footer__menu-item">
+            <a
+              href="#"
+              class="stage--1__footer__menu-item__text1"
+              style="color: #823fef"
+              >RU</a
+            >
+          </li>
+        </ul>
+        <ul class="stage--1__footer__buttons">
+          <button class="btn-previous">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <button class="btn-next">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </ul>
+      </div>
+    </div>
+    <div class="sg2-wrapper">
+      <div class="stage--2__title" id="new">Новинки</div>
+      <div class="products-menu">
+        <ul class="stage--2__products-menu">
+          <li class="stage--2__product-item">
+            <img
+              src="./assets/the-boys.svg"
+              alt="the boys.svg"
+              class="product"
+            />
+            <div class="product-footer">
+              <p class="product__title">Комикс "Пацаны"</p>
+              <p class="product__price">500 грн</p>
+            </div>
+          </li>
+          <li class="stage--2__product-item">
+            <img src="./assets/dd.svg" alt="the boys.svg" class="product" />
+            <div class="product-footer">
+              <p class="product__title">Комикс "Сорвиголова"</p>
+              <p class="product__price">500 грн</p>
+            </div>
+          </li>
+          <li class="stage--2__product-item">
+            <img src="./assets/batman.svg" alt="the boys.svg" class="product" />
+            <div class="product-footer">
+              <p class="product__title">Комикс "Бэтмэн и Флэш"</p>
+              <p class="product__price">500 грн</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="btn-buy__container">
+        <button class="btn-buy">Купить</button>
+      </div>
+      <div class="sg2--footer-btn__container">
+        <ul class="stage--2__footer__buttons">
+          <button class="btn-previous">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <button class="btn-next">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </ul>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="promo-container">
+        <div class="promo-left-side">
+          <a class="promo-title">Ввести промокод</a>
+          <div class="input-container">
+            <input placeholder="Код" type="text" class="promo" />
+            <button class="btn-apply-promo">
+              <i class="fa-solid fa-check"></i>
+            </button>
+          </div>
+        </div>
+        <div class="promo-right-side">
+          <img src="./assets/promo.svg" alt="promo" />
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-wrapper">
+        <div class="contacts-container">
+          <p class="contacts-title">comic book store</p>
+          <p class="phone">+380 (099) 165 08 87</p>
+          <p class="email">comicbookstore@gmail.com</p>
+        </div>
+        <div class="go-back-arrow">
+          <a href="#"><i class="fa-solid fa-arrow-up-long"></i></a>
+        </div>
+        <div class="copyright">Все права защищены © 2022</div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/script.js" defer></script>
+  </body>
+</html>
