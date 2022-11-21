@@ -9,6 +9,7 @@ html {
   font-size: 10px;
 }
 body {
+  overflow-x: hidden;
   background-color: #fff;
   font-family: "Nunito", sans-serif;
 }
@@ -304,6 +305,7 @@ input {
   height: 310px;
   border-radius: 10px;
   margin: 18px 0;
+  filter: drop-shadow(0px 5px 15px rgba(132, 28, 182, 0.2));
 }
 .promo-right-side {
   margin-right: -4rem;
